@@ -110,7 +110,7 @@ fun Caratula(
                         fontSize = 16.sp,
                         textAlign = TextAlign.Center,
                         fontWeight = FontWeight.Bold,
-                        modifier = Modifier.align(Alignment.Center)
+                        modifier = Modifier.align(Alignment.TopCenter)
                     )
                 }
                 Box(
@@ -173,11 +173,8 @@ fun Caratula(
                     modifier = Modifier.align(Alignment.Center)
                 )
             }
-
         }
     }
-
-
 }
 
 
